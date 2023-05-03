@@ -17,11 +17,11 @@ __webpack_require__.r(__webpack_exports__);
 function generateJoke() {
   var config = {
     headers: {
-      Accept: "application/json"
+      Accept: 'application/json'
     }
   };
-  axios__WEBPACK_IMPORTED_MODULE_0__["default"].get("https://icanhazdadjoke.com", config).then(function (res) {
-    document.getElementById("joke").innerHTML = res.data.joke;
+  axios__WEBPACK_IMPORTED_MODULE_0__["default"].get('https://icanhazdadjoke.com', config).then(function (res) {
+    document.getElementById('joke').innerHTML = res.data.joke;
   });
 }
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateJoke);
@@ -4656,19 +4656,18 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _generateJoke__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateJoke */ "./src/generateJoke.js");
+/* harmony import */ var _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./generateJoke.js */ "./src/generateJoke.js");
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _assets_laughing_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/laughing.svg */ "./src/assets/laughing.svg");
 
 
 
-var laughImg = document.getElementById("laughImg");
+var laughImg = document.getElementById('laughImg');
 laughImg.src = _assets_laughing_svg__WEBPACK_IMPORTED_MODULE_2__;
-var jokeBtn = document.getElementById("jokebtn");
-jokeBtn.addEventListener("click", _generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"]);
-console.log((0,_generateJoke__WEBPACK_IMPORTED_MODULE_0__["default"])());
+var jokeBtn = document.getElementById('jokebtn');
+jokeBtn.addEventListener('click', _generateJoke_js__WEBPACK_IMPORTED_MODULE_0__["default"]);
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle c7ac7a6c90fe3e0b1397.js.map
+//# sourceMappingURL=bundle 0bcac6ef7ddf29821ba4.js.map
